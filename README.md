@@ -4,7 +4,8 @@
 * Atividade avaliativa 01 da disciplina de linguagem de programação do curso técnico de informática SATC 2021
 ```python
 nome = "Vinicius Albino"
-linguagem = python
+turma = 2137
+linguagem = "python"
 print("Atividade avaliativa: ")
 ```
 [1º exercicio: 6](https://github.com/Shinguek0/infosatc-lp-avaliativo-01-2021/blob/main/exercicio1.6.py)<br>

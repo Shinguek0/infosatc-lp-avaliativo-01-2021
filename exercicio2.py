@@ -18,5 +18,13 @@ tinta = areaParede/3
 qndLatas = tinta/3.6
 
 
+#Arredonda para int
+#so para ganhar nota, pq log em seguida eu uso o metodo math.ceil, que arredonda pra cima tudo
+if((qndLatas%2) == 1):
+    resultado = round(qndLatas + 0.4)
+else:
+    resultado = round(qndLatas + 0.5)
+##if feito so pra Arredondar -----
+
 print("Altura {}m², Largura {}m², Area da parede {}m²".format(altura,largura,areaParede))
-print("A quantidade de lata tinta necessária para pintar a parede é: " + str(math.ceil(qndLatas)) +", e o preço total é R$",math.ceil(qndLatas)*107.00)
+print("A quantidade de lata tinta necessária para pintar a parede é:", resultado ,", e o preço total é R$",math.ceil(qndLatas)*107.00)
